@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invoice">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnHomepage"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Tani Jaya"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="150dp"-->
+    <!--        tools:layout_editor_absoluteY="219dp" />-->
+    <TextView
+        android:id="@+id/nama_pembeli"
+        android:layout_width="314dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/nama_pembeli"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:hint="Jumlah kilogram kopi yg dibeli"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+
+    <TextView
+        android:id="@+id/jenis"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/jumlah"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:hint="Jenis Kopi yang dibeli"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/jenis1"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/jenis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/jenis2"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/jenis1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/jenis3"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/jenis2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/kualitasTotal"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/jenis3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/totalHarga"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/kualitasTotal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_below="@+id/totalHarga"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="418dp" />
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/checkbox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_below="@+id/jenis"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/arabica"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Arabica Gayo"/>-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/robustalampung"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Robusta Lampung" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/ulukareng"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Ulukareng"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/kualitas"-->
+<!--        android:layout_width="319dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_below="@+id/checkbox"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        android:layout_marginRight="44dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Kualitas kopi yg dibeli" />-->
+<!--    <TextView-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/test"-->
+<!--        android:layout_width="319dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_below="@+id/kualitas"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        android:layout_marginRight="44dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Kualitas kopi yg dibeli" />-->
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/pilihankualitas"-->
+<!--        android:layout_width="357dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/kualitas"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/kualitasA"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Kualitas A" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/kualitasB"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Kualitas B" />-->
+<!--    </RadioGroup>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnCount"-->
+<!--        android:layout_below="@+id/pilihankualitas"-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Count"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteY="418dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnBack"-->
+<!--        android:layout_below="@+id/btnCount"-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Back to List"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteY="418dp" />-->
+
+</RelativeLayout>

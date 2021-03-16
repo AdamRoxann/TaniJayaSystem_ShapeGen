@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+
+    <!-- first row of the table layout-->
+    <TableRow
+
+        android:id="@+id/firstRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Jenis Kopi"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="18dip"
+            android:text="Harga Satuan"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="18dip"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#b87"
+            android:padding="18dip"
+            android:text="Kualitas A"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#e6f542"
+            android:padding="18dip"
+            android:text="Kualitas B"
+            android:textColor="#000"
+            android:textSize="14dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Lampung"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#b87"
+            android:padding="18dip"
+            android:text="100.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#e6f542"
+            android:padding="18dip"
+            android:text="75.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Ulukareng"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#b87"
+            android:padding="18dip"
+            android:text="200.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#e6f542"
+            android:padding="18dip"
+            android:text="150.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Arabica G"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#b87"
+            android:padding="18dip"
+            android:text="180.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:background="#e6f542"
+            android:padding="18dip"
+            android:text="135.000"
+            android:textColor="#000"
+            android:textSize="14dp" />
+    </TableRow>
+    <TableRow
+        android:background="#fff" >
+     <Button
+         android:layout_width="20dp"
+         android:layout_height="45dp"
+         android:text=""/>
+        <Button
+            android:id="@+id/btnBuynow"
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:text="Buy Now"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:text=""/>
+
+    </TableRow>
+    <TableRow
+        android:background="#fff" >
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:text=""/>
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:text="Back To Menu"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:text=""/>
+    </TableRow>
+</TableLayout>

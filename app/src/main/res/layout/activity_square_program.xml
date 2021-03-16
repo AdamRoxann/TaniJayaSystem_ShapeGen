@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SquareProgram">
+
+        <!--    <Button-->
+        <!--        android:id="@+id/btnHomepage"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Tani Jaya"-->
+        <!--        tools:ignore="MissingConstraints"-->
+        <!--        tools:layout_editor_absoluteX="150dp"-->
+        <!--        tools:layout_editor_absoluteY="219dp" />-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/btnTanijaya"-->
+        <!--        android:background="#fff"-->
+        <!--        android:layout_width="360dp"-->
+        <!--        android:layout_height="45dp"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_marginStart="24dp"-->
+        <!--        android:layout_marginTop="150dp"-->
+        <!--        android:text="TaniJaya"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        tools:ignore="MissingConstraints"-->
+        <!--        tools:layout_editor_absoluteY="418dp" />-->
+
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/title"
+            android:layout_width="319dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:ems="40"
+            android:hint="Bangun Datar" />
+
+        <EditText
+            android:id="@+id/jumlah"
+            android:layout_width="314dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Masukan Jumlah"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/jumlah"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="418dp" />
+
+        <TextView
+            android:gravity="center"
+            android:maxLines="200"
+            android:id="@+id/hasil"
+            android:layout_width="319dp"
+            android:layout_below="@+id/btnSubmit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:ems="40"
+            android:hint="" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/hasil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Back To Homepage"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="418dp" />
+        <!--    <TextView-->
+        <!--        android:gravity="center"-->
+        <!--        android:id="@+id/hasil2"-->
+        <!--        android:layout_width="319dp"-->
+        <!--        android:layout_height="28dp"-->
+        <!--        android:layout_below="@+id/hasil"-->
+        <!--        android:layout_alignParentLeft="true"-->
+        <!--        android:layout_alignParentEnd="true"-->
+        <!--        android:layout_alignParentRight="true"-->
+        <!--        android:layout_marginLeft="48dp"-->
+        <!--        android:layout_marginTop="0dp"-->
+        <!--        android:layout_marginEnd="44dp"-->
+        <!--        android:layout_marginRight="44dp"-->
+        <!--        android:ems="40"-->
+        <!--        android:hint="" />-->
+    </RelativeLayout>
+
+</ScrollView>
